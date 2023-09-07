@@ -1,5 +1,5 @@
 constant: CONNECTION_NAME {
-  value: "cortex-looker-demo-4"
+  value: "cortex-looker-demo-5"
   export: override_required
 }
 
@@ -9,7 +9,7 @@ constant: GCP_PROJECT {
 }
 
 constant: REPORTING_DATASET {
-  value: "CORTEXV4_RPT"
+  value: "CORTEX_SAP_REPORTING"
   export: override_required
 }
 
