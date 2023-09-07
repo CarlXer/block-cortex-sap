@@ -514,8 +514,8 @@
     filters:
       data_intelligence_ar.Key_Date: 2022/03/31
       data_intelligence_ar.Past_Due_Interval: "-Due after Key Date"
-    #sorts: [data_intelligence_ar.Past_Due_Interval, data_intelligence_ar.OverDue_Amount
-    #    desc 4]
+    sorts: [data_intelligence_ar.Past_Due_Interval, data_intelligence_ar.OverDue_Amount
+        desc 4]
     limit: 500
     row_total: right
     dynamic_fields: [{category: measure, expression: '', label: Overdue Amount, value_format: '0.00,"K"',
